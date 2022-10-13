@@ -1,0 +1,30 @@
+<!--al presionar clik me va colocar al contrario de lo que es mostrar-->
+<button (click)="mostrar = !mostrar" 
+    type="button" 
+    class="btn btn-outline-primary btn-block">Mostrar/ocultar
+</button>
+
+<div *ngIf="mostrar">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!--se replica o rrecorre con un ngfor-->
+            <!-- let pone una variable cuaquirNombre y el nombre del arreglo -->
+
+            <div *ngFor="let planta of plantas">
+
+                <div *ngIf="planta.clasificacion == 'Planta caliente'">
+
+                    <img [src]="planta.img" class="card-img" width="50" height="250">
+                    <div class="card-body">
+                        <p class="card-text">Nom cientifico: {{planta.nombre_cientifico}}</p>
+                        <p class="card-title">Nombre: {{planta.nombre}}</p>  <!-- nombre del item planta.atrubuto nombre del objeto-->
+                        <p class="card-text">Clasificación: {{planta.clasificacion}}</p>
+                        <p class="card-text">Nom Nasa: {{planta.nombre_nasa}}</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Parte utilizada: {{planta.parte_utilizada}}</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<!--aparecen 7 targetas porque se estan consumiendo los servicios -->
