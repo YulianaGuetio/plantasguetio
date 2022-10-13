@@ -1,0 +1,90 @@
+
+h2 {
+    font-size: 200%;
+    font-family: verdana;
+    color: rgb(148, 144, 144);
+    text-align: center;
+}
+
+#img_hojavi {
+    border-radius: 50%;
+}
+
+#pos_img {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+#centrar_img {
+    padding-top: 5px;
+    text-align: center;
+}
+
+#titulo2 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    padding-left: 230px;
+}
+
+/*El main*/
+h6 {
+    text-align: center;
+}
+
+#contenedor {
+
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#tabla {
+    color: rgb(109, 108, 108);
+    font-family: verdana;
+    font-size: 80%;
+    text-align: left;
+    padding: 15px;
+}
+
+#texto_cuadro {
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+}
+
+/*Descri*/
+#contenedor2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+#cont_descrip {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 60px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+#titu_descrp {
+    color: rgb(109, 108, 108);
+    font-size: 15px;
+    font-family: verdana;
+    text-align: center;
+}
+#texto{
+    font-size: 13px;
+    
+}
+
+#Home_button{
+    padding: 8px 20px 0px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
